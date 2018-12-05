@@ -1,0 +1,13 @@
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BatailleWinForm.exe.config
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.csprojResolveAssemblyReference.cache
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.frmBataille.resources
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.Properties.Resources.resources
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.csproj.GenerateResource.Cache
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BatailleWinForm.exe
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BatailleWinForm.pdb
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BiblioBataille.dll
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BiblioCartes.dll
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BiblioBataille.pdb
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\bin\Debug\BiblioCartes.pdb
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.exe
+c:\users\christophe\documents\visual studio 2012\Projects\BatailleWinForm\BatailleWinForm\obj\Debug\BatailleWinForm.pdb

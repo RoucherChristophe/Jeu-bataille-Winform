@@ -186,8 +186,8 @@ namespace BiblioBataille
                    
                 if (_cartesOrdi.Count == 0)
                 {
-                    _engin.DeplacerCarteDessusDessus(_cartesJoueur, _cartesBatailleOrdi);
                     _engin.DeplacerCarteDessusDessus(_cartesJoueur, _cartesBatailleJoueur);
+                    _engin.DeplacerCarteDessusDessus(_cartesJoueur, _cartesBatailleOrdi);
                     _dernierAvecDesCartes = TypesJoueur.Joueur;
                 }
 

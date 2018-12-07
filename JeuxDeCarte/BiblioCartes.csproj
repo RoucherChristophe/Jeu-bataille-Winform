@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,9 +48,177 @@
     <Compile Include="Carte.cs" />
     <Compile Include="EnginDeCartes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ressource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ressource.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Ressource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ressource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Carte51.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

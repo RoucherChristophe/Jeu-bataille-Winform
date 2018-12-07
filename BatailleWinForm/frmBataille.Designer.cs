@@ -32,11 +32,13 @@
             this.jeuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.NouvellePartieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnJouer = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblCarteEnCourJoueur = new System.Windows.Forms.Label();
-            this.lblCarteEnCourOrdi = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.picCarteEnCoursJoueur = new System.Windows.Forms.PictureBox();
+            this.picCarteEnCoursOrdi = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCarteEnCoursJoueur)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCarteEnCoursOrdi)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -68,23 +70,13 @@
             // 
             this.btnJouer.Enabled = false;
             this.btnJouer.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJouer.Location = new System.Drawing.Point(190, 186);
+            this.btnJouer.Location = new System.Drawing.Point(200, 203);
             this.btnJouer.Name = "btnJouer";
             this.btnJouer.Size = new System.Drawing.Size(108, 46);
             this.btnJouer.TabIndex = 1;
             this.btnJouer.Text = "Jouer";
             this.btnJouer.UseVisualStyleBackColor = true;
             this.btnJouer.Click += new System.EventHandler(this.btnJouer_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(70, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 37);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Joueur";
             // 
             // label2
             // 
@@ -96,23 +88,31 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Ordinateur";
             // 
-            // lblCarteEnCourJoueur
+            // label1
             // 
-            this.lblCarteEnCourJoueur.AutoSize = true;
-            this.lblCarteEnCourJoueur.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCarteEnCourJoueur.Location = new System.Drawing.Point(70, 101);
-            this.lblCarteEnCourJoueur.Name = "lblCarteEnCourJoueur";
-            this.lblCarteEnCourJoueur.Size = new System.Drawing.Size(0, 37);
-            this.lblCarteEnCourJoueur.TabIndex = 4;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(70, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 37);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Joueur";
             // 
-            // lblCarteEnCourOrdi
+            // picCarteEnCoursJoueur
             // 
-            this.lblCarteEnCourOrdi.AutoSize = true;
-            this.lblCarteEnCourOrdi.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCarteEnCourOrdi.Location = new System.Drawing.Point(333, 101);
-            this.lblCarteEnCourOrdi.Name = "lblCarteEnCourOrdi";
-            this.lblCarteEnCourOrdi.Size = new System.Drawing.Size(0, 37);
-            this.lblCarteEnCourOrdi.TabIndex = 5;
+            this.picCarteEnCoursJoueur.Location = new System.Drawing.Point(77, 95);
+            this.picCarteEnCoursJoueur.Name = "picCarteEnCoursJoueur";
+            this.picCarteEnCoursJoueur.Size = new System.Drawing.Size(100, 136);
+            this.picCarteEnCoursJoueur.TabIndex = 4;
+            this.picCarteEnCoursJoueur.TabStop = false;
+            // 
+            // picCarteEnCoursOrdi
+            // 
+            this.picCarteEnCoursOrdi.Location = new System.Drawing.Point(356, 95);
+            this.picCarteEnCoursOrdi.Name = "picCarteEnCoursOrdi";
+            this.picCarteEnCoursOrdi.Size = new System.Drawing.Size(100, 136);
+            this.picCarteEnCoursOrdi.TabIndex = 5;
+            this.picCarteEnCoursOrdi.TabStop = false;
             // 
             // frmBataille
             // 
@@ -120,8 +120,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(515, 261);
-            this.Controls.Add(this.lblCarteEnCourOrdi);
-            this.Controls.Add(this.lblCarteEnCourJoueur);
+            this.Controls.Add(this.picCarteEnCoursOrdi);
+            this.Controls.Add(this.picCarteEnCoursJoueur);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnJouer);
@@ -135,6 +135,8 @@
             this.Load += new System.EventHandler(this.frmBataille_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCarteEnCoursJoueur)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCarteEnCoursOrdi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,10 +148,10 @@
         private System.Windows.Forms.ToolStripMenuItem jeuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem NouvellePartieToolStripMenuItem;
         private System.Windows.Forms.Button btnJouer;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblCarteEnCourJoueur;
-        private System.Windows.Forms.Label lblCarteEnCourOrdi;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox picCarteEnCoursJoueur;
+        private System.Windows.Forms.PictureBox picCarteEnCoursOrdi;
     }
 }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BiblioCartes;
+using System.Drawing;
 
 namespace BiblioBataille
 {
@@ -25,5 +26,12 @@ namespace BiblioBataille
         {
             get { return _carte.Nom; }
         }
+
+        public Image Image
+        {
+            get { return _carte.Image; }
+
+        }
+
     }
 }

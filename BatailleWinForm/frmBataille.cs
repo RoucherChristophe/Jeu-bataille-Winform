@@ -36,8 +36,8 @@ namespace BatailleWinForm
 
         private void MiseAJourEcran()
         {
-            lblCarteEnCourJoueur.Text = _jeuBataille.CarteEnCourJoueur.Nom;
-            lblCarteEnCourOrdi.Text = _jeuBataille.CarteEnCourOrdi.Nom;
+            picCarteEnCoursJoueur.Image = _jeuBataille.CarteEnCourJoueur.Image;
+            picCarteEnCoursOrdi.Image = _jeuBataille.CarteEnCourOrdi.Image;
         }
 
         private void frmBataille_Load(object sender, EventArgs e)

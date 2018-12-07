@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing; // pour pouvoir traiter les images
 
 namespace BiblioCartes
 {
@@ -55,6 +56,13 @@ namespace BiblioCartes
         {
             get { return _typeCarte; }
             set { _typeCarte = value; }
+        }
+
+        private Image _image;
+        public Image Image
+        {
+            get { return _image; }
+            set { _image = value; }
         }
 
         // création de l'enum

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace BiblioCartes
 {
@@ -41,9 +42,9 @@ namespace BiblioCartes
         }
 
         // fonction privée qui permet de créer une carte
-        private Carte CreerCarte(Carte.TypesCartes typeCarte, int valeur)
+        private Carte CreerCarte(Carte.TypesCartes typeCarte, int valeur, Image image)
         {
-            return new Carte() { TypeCarte = typeCarte, Valeur = valeur };
+            return new Carte() { TypeCarte = typeCarte, Valeur = valeur, Image = image };
         }
 
         // fonction qui créer un jeux de cartes
@@ -53,12 +54,18 @@ namespace BiblioCartes
             // list dynamique
             List<Carte> Cartes = new List<Carte>();
 
+            int index = 0;
+
             for (Carte.TypesCartes typeCarte = 0; typeCarte <= Carte.TypesCartes.Trefle; typeCarte++)
             {
                 // création des cartes 
                 for (int i = 1; i < 14; i++)
                 {
-                    Cartes.Add(CreerCarte(typeCarte, i));
+                    // pour accéder au fichier 'Ressource': 'Ressource.ResourceManager.GetObject(string.Format("Carte{0}",index)))'
+                    // resourceManager peut retourner plusieurs chose,il faut lui spécifié avec un Cast '(Image)', il retournera l'objet carte avec l'index
+                    // on récupère la carte corespondante, qui sera converti en image, et sera envoyer dans la fonction 'CréerCarte'
+                    Cartes.Add(CreerCarte(typeCarte, i, (Image)Ressource.ResourceManager.GetObject(string.Format("Carte{0}",index))));
+                    index++;
                 }             
             }
             // on retourne les cartes
@@ -118,9 +125,6 @@ namespace BiblioCartes
         {
             paquet.Add(carte);
         }
-
-
-
 
     }
 }
